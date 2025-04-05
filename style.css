@@ -1,0 +1,452 @@
+:root{
+    --background-color:#dab7ae;
+    --btn-text-color:#68481c;
+}
+@font-face{
+    font-family: "allgender";
+    src:url("All-Genders-Regular-v4.otf")format("opentype") ;
+}
+body{
+    background-color: var(--background-color);
+    font-family: "allgender",sans-serif;
+}
+.main{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+}
+.main p{
+    color: var(--btn-text-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ /* todo about */
+.about_us{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.about_us .img {
+    width: 100%;
+    height: 100%;
+}
+
+.about_us .img > img{
+    width: 100%;
+    height: 100%;
+}
+.about_us .about_text{
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+     align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-inline: 38px;
+
+}
+.about_us .about_text h2{
+    color: #fff;
+    font-size: 35px;
+    width: 85%;
+}
+.about_us .about_text p{
+    color: #fff;
+    font-size: 30px;
+    width: 85%;
+    font-weight: bold;
+}
+.btn {
+    width: 200px;
+    height: 100px;
+    background-image: url(ROZ_landing_pag_e_Data/header/Button.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.btn .btn-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: var(--btn-text-color);
+    font-weight: bold;
+    width: 100%;
+}
+/* !! end about */
+/*  Todo feature */
+.features{
+    padding-inline: 25px;
+}
+.feature{
+    background-image: url(ROZ_landing_pag_e_Data/features/features_bg.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 590px;
+    width: 100%;
+    position: relative;
+}
+.feature .feature_btn{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #f3ddd7;
+    padding: 15px 40px;
+    border-radius: 7px;
+}
+.feature .feature_btn .btn-text{
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--btn-text-color);
+}
+.feature_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.feature_items .features_item {
+    width: 270px;
+}
+.feature_items .features_item img{
+    width: 100%;
+}
+/* !! feature */
+
+/* todo Packages */
+.Packages{
+    margin-bottom: 45px;
+}
+.Packages_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.Packages_items .Packages_item{
+    flex-basis: 21%;
+}
+.Packages_items .Packages_item img{
+    width: 100%;
+}
+/* !! Packages */
+/* todo our_works_ */
+.our_works {
+    width: 100%;
+    height: 100%;
+}
+/* Todo works */
+.servicec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.servicec img{
+    width: 100%;
+    height: 650px;
+}
+.services_cont{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 2px;
+
+}
+.services_text p{
+    color: #fff;
+    font-size: 30px;
+}
+.services_content{
+    display: flex;
+        flex-direction: column;
+        border: 3px solid #fff;
+        width: 80%;
+        gap: 5px;
+        border-radius: 15px 15px 0 0;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+}
+.services_content p{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.services_content h3{
+    background: linear-gradient(to right, transparent 0%, var(--background-color) 50%, transparent 100%);
+    text-align: center;
+    padding: 13px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    color: var(--btn-text-color);
+    font-weight: 700;
+}
+.btn-services{
+    width: 200px;
+    height: 100px;
+    background-image: url(ROZ_landing_pag_e_Data/header/Button.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.btn-services .btn-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    color: var(--btn-text-color);
+    font-weight: bold;
+    width: 100%;
+}
+.works {
+    padding-inline: 80px;
+}
+.works_items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+.works_item{
+    overflow: hidden;
+    border-radius: 15px;
+}
+.works_item img{
+    width: 100%;
+    transition: 0.6s;
+}
+.works_item img:hover{
+    transform:  rotate(4deg) scale(1.2);
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: #c28482;
+}
+
+.foorer_btn{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.foorer_btn img{
+    width: 100%;
+    height: 400px;
+}
+.bottons {
+    display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 20px;
+}
+.bottons a {
+    background-image: url(ROZ_landing_pag_e_Data/header/Button.webp);
+    width: 500px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--btn-text-color);
+}
+.social{
+    background-color: #c28482;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-block: 20px;
+}
+.social h2 {
+    color: #fff;
+}
+
+.social_icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.social_icon a{
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+.social_icon i {
+    width: 40px;
+    height: 40px;
+}
+.social_icon i img{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width:991px){
+    /* todo about */
+    .btn{
+        width: 140px;
+        height: 55px;
+    }
+    .about_us .about_text{
+        gap: 0;
+        padding-inline: 25px;
+        top: 7%;
+    }
+    .about_us .about_text p {
+        font-size: 13px;
+        padding-inline: 1px;
+        line-height: 21px;
+        
+    }
+     .services_content .btn {
+        width: 100px;
+        height: 50px;
+
+    }
+    .btn .btn-text {
+        font-size: 14px;
+    }
+    /*  Todo feature */
+    .features {
+        padding-inline:30px;
+    }
+    .feature {  
+        height:157px;
+    }
+    .feature_items {
+        gap: 10px;
+    }
+    .feature_items .features_item {
+        width:64px;
+    }
+    .feature .feature_btn {
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background-color: #f3ddd7;
+        padding: 3px 14px;
+        border-radius: 7px;
+    }
+    .feature .feature_btn .btn-text {
+        font-size:14px;
+    }
+    .main p{
+        font-size: 25px;
+    }
+    /*  todo Packages  */
+    .Packages{
+        padding-inline: 37px;
+    }
+    .Packages_items {
+        gap: 10px;
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr) );
+    }
+    /* !!!! */
+    .services_content p {
+        font-size: 16px;
+    }
+    .services_content h3 {
+        font-size: 16px;
+        padding: 10px 65px;
+        height: 40px;
+    }
+    .services_content {
+        gap: 3px;
+        padding: 10px;
+        padding-inline: 0;
+        height: 160px;
+        
+    }
+    .btn-services {
+        width: 150px;
+        height: 100px;
+    }
+    .btn-services .btn-text {
+        font-size: 13px;
+    }
+    .services_cont{
+        gap: 0;
+        top: 35%;
+
+    }
+    .services_text p {
+        font-size: 20px;
+    }
+    .works {
+        padding-inline: 50px;
+    }
+    .social h2 {
+        font-size: 16px;
+    }
+    .works_items{
+        column-gap: 5px;
+        row-gap: 2px;
+    }
+    .foorer_btn img {
+        width: 100%;
+        height: 100%;
+    }
+    .servicec img {
+        width: 100%;
+        height: 100%;
+    }
+    .about_us .about_text h2 {
+        color: #fff;
+        font-size: 21px;
+        line-height: 35px;
+}
+.bottons a {
+    font-size: 13px;
+}
+.bottons a {
+    background-image: url(ROZ_landing_pag_e_Data/header/Button.webp);
+    width: 250px;
+    height: 44px;
+}
+}
